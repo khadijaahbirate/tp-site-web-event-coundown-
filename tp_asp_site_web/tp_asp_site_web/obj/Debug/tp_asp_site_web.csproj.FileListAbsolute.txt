@@ -1,0 +1,4 @@
+C:\Users\idon ism\Desktop\tp_asp_site_web\tp_asp_site_web\bin\tp_asp_site_web.dll
+C:\Users\idon ism\Desktop\tp_asp_site_web\tp_asp_site_web\bin\tp_asp_site_web.pdb
+C:\Users\idon ism\Desktop\tp_asp_site_web\tp_asp_site_web\obj\Debug\tp_asp_site_web.dll
+C:\Users\idon ism\Desktop\tp_asp_site_web\tp_asp_site_web\obj\Debug\tp_asp_site_web.pdb

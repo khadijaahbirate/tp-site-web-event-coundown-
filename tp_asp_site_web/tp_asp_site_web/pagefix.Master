@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="pagefix.master.cs" Inherits="tp_asp_site_web.pagefix" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="jsovervew.js" type="text/javascript"></script>
+<link href="Style1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+ 
+        <!-- start our navbar-->
+  <nav class="navbar  navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ournavbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">Club japan </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="ournavbar">
+
+      <ul class="nav navbar-nav navbar-right">
+      <!-- f111111 -->
+        <li class="active"><a href="homepage.aspx">Overview <span class="sr-only">(current)</span></a></li>
+
+    <!-- f2222 -->
+        <li><a href="Register.aspx">Register</a></li>
+        <li class="dropdown">
+    
+     <!-- f44444444 -->
+          <li><a href="Overview.aspx">Activite</a></li>
+        <li class="dropdown">
+    <!-- f555555 -->
+       <li><a href="#Teams">Team</a></li>
+        <li class="dropdown">
+     <!-- f555555 --> 
+     <li><a href="#feat">Gallery</a></li>
+        <li class="dropdown">
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /. fin container-->
+</nav>
+
+ <!-- finich our navbar-->
+ <!-- Start image hoder-->
+
+
+ <div class="cont">
+    <img src="image/2.jpg"  style="width:100%; height:65vh;">
+          <div class="con">
+                    <h1 class="teteimge">JAPAN DAY </h1>
+                    <p class="textimg">7ÈME ÉDITION 2019</p>
+                     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                             <p class="textholderimg2">
+                             </p>
+                      </asp:ContentPlaceHolder>
+ 
+          </div>
+</div>
+
+
+<!-- finich image hoder-->
+<form id="form1" runat="server">
+    <div>
+       
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+ </form>
+    <!-- start copyRight-->
+            <div  class="tet3">
+            <span class="glyphicon glyphicon-copyright-mark">2019 TDIB Ahbirate Khadija .All rights reserved. <a href="#"><i class="fa fa-dribbble"></i></a> 
+  <a href="#"><i class="fa fa-twitter"></i></a> 
+  <a href="#"><i class="fa fa-linkedin"></i></a> 
+  <a href="#"><i class="fa fa-facebook"></i></a>  </span>
+             </div> 
+   <!-- finich copyRight-->
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+     <script src="js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
